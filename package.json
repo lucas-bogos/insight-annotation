@@ -1,0 +1,25 @@
+{
+  "name": "insight-annotation",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/lucas-bogos/insight-annotation.git",
+  "license": "MIT",
+  "scripts": {
+    "babel-start": "babel-node server.js",
+    "babel-debug": "babel-node server.js --debug"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "sequelize": "^6.12.0",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^2.0.15"
+  }
+}

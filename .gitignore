@@ -1,0 +1,4 @@
+node_modules
+annotationsDb.sqlite
+.env
+front.html
